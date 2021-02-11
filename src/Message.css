@@ -1,0 +1,61 @@
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+.message_user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message_userCard {
+  background-color: #0b81ff !important;
+}
+
+.message_guestCard {
+  background-color: #e9e9eb !important;
+}
+
+body {
+  background-color: #606770;
+}
+
+.app_form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.App {
+  text-align: center;
+}
+
+.app_formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input {
+  flex: 1 !important;
+}
+
+.app_iconButton {
+  flex: 0 !important;
+}
+
+.message_border {
+  overflow-y: scroll;
+  height: 647px;
+  background-color: #293d3d;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.message_border::-webkit-scrollbar {
+  display: none;
+}
